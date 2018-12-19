@@ -72,7 +72,7 @@ nohup python3 -m visdom.server &
 
 ## 4. Demo
 
-Download pretrained model from [Google Drive](https://drive.google.com/open?id=1cQ27LIn-Rig4-Uayzy_gH5-cW-NRGVzY) or [Baidu Netdisk( passwd: scxn)](https://pan.baidu.com/s/1o87RuXW)
+Download pretrained model from [Baidu Netdisk( passwd: ii3i)](https://pan.baidu.com/s/1vnEqyWso66vOlI9McZYqAA)
 
 
 See [demo.ipynb](https://github.com/chenyuntc/simple-faster-rcnn-pytorch/blob/master/demo.ipynb) for more detail.
@@ -153,10 +153,6 @@ Some Key arguments:
 - `--use-drop`: use dropout in RoI head, default False
 - `--use-Adam`: use Adam instead of SGD, default SGD. (You need set a very low `lr` for Adam)
 - `--load-path`: pretrained model path, default `None`, if it's specified, it would be loaded.
-
-you may open browser, visit `http://<ip>:8097` and see the visualization of training procedure as below:
-
-![visdom](http://7zh43r.com2.z0.glb.clouddn.com/del/visdom-fasterrcnn.png) 
 
 If you're in China and encounter problem with visdom (i.e. timeout, blank screen), you may refer to [visdom issue](https://github.com/facebookresearch/visdom/issues/111#issuecomment-321743890), and see [troubleshooting](#troubleshooting) for solution.
 
